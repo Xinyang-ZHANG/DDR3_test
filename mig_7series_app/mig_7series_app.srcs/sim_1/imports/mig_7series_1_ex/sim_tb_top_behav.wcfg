@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="419428072627fs"></ZoomEndTime>
+      <Cursor1Time time="156177500000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="196"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="132" />
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_dq" type="array">
+      <obj_property name="ElementShortName">ddr3_dq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_dq[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_dqs_n" type="array">
+      <obj_property name="ElementShortName">ddr3_dqs_n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_dqs_n[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_dqs_p" type="array">
+      <obj_property name="ElementShortName">ddr3_dqs_p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_dqs_p[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_addr" type="array">
+      <obj_property name="ElementShortName">ddr3_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_addr[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_ba" type="array">
+      <obj_property name="ElementShortName">ddr3_ba[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_ba[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_ras_n" type="logic">
+      <obj_property name="ElementShortName">ddr3_ras_n</obj_property>
+      <obj_property name="ObjectShortName">ddr3_ras_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_cas_n" type="logic">
+      <obj_property name="ElementShortName">ddr3_cas_n</obj_property>
+      <obj_property name="ObjectShortName">ddr3_cas_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_we_n" type="logic">
+      <obj_property name="ElementShortName">ddr3_we_n</obj_property>
+      <obj_property name="ObjectShortName">ddr3_we_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_reset_n" type="logic">
+      <obj_property name="ElementShortName">ddr3_reset_n</obj_property>
+      <obj_property name="ObjectShortName">ddr3_reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_ck_p" type="array">
+      <obj_property name="ElementShortName">ddr3_ck_p[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_ck_p[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_ck_n" type="array">
+      <obj_property name="ElementShortName">ddr3_ck_n[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_ck_n[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_cke" type="array">
+      <obj_property name="ElementShortName">ddr3_cke[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_cke[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_cs_n" type="array">
+      <obj_property name="ElementShortName">ddr3_cs_n[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_cs_n[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_dm" type="array">
+      <obj_property name="ElementShortName">ddr3_dm[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_dm[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ddr3_odt" type="array">
+      <obj_property name="ElementShortName">ddr3_odt[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_odt[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/sys_clk_i" type="logic">
+      <obj_property name="ElementShortName">sys_clk_i</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ui_clk" type="logic">
+      <obj_property name="ElementShortName">ui_clk</obj_property>
+      <obj_property name="ObjectShortName">ui_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/ui_clk_sync_rst" type="logic">
+      <obj_property name="ElementShortName">ui_clk_sync_rst</obj_property>
+      <obj_property name="ObjectShortName">ui_clk_sync_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_addr" type="array">
+      <obj_property name="ElementShortName">app_addr[28:0]</obj_property>
+      <obj_property name="ObjectShortName">app_addr[28:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_cmd" type="array">
+      <obj_property name="ElementShortName">app_cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">app_cmd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_rdy" type="logic">
+      <obj_property name="ElementShortName">app_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_en" type="logic">
+      <obj_property name="ElementShortName">app_en</obj_property>
+      <obj_property name="ObjectShortName">app_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_wdf_data" type="array">
+      <obj_property name="ElementShortName">app_wdf_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_wdf_rdy" type="logic">
+      <obj_property name="ElementShortName">app_wdf_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_wdf_wren" type="logic">
+      <obj_property name="ElementShortName">app_wdf_wren</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_wdf_end" type="logic">
+      <obj_property name="ElementShortName">app_wdf_end</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_wdf_mask" type="array">
+      <obj_property name="ElementShortName">app_wdf_mask[15:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_mask[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_rd_data" type="array">
+      <obj_property name="ElementShortName">app_rd_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_rd_data_end" type="logic">
+      <obj_property name="ElementShortName">app_rd_data_end</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/app_rd_data_valid" type="logic">
+      <obj_property name="ElementShortName">app_rd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/init_calib_complete" type="logic">
+      <obj_property name="ElementShortName">init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">init_calib_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/device_temp" type="array">
+      <obj_property name="ElementShortName">device_temp[11:0]</obj_property>
+      <obj_property name="ObjectShortName">device_temp[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mig_7series_1/sys_rst" type="logic">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/rw_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">rw_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">rw_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/rd_fifo_data_valid" type="logic">
+      <obj_property name="ElementShortName">rd_fifo_data_valid</obj_property>
+      <obj_property name="ObjectShortName">rd_fifo_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/rd_fifo_data" type="array">
+      <obj_property name="ElementShortName">rd_fifo_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_fifo_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/rd_fifo_req" type="logic">
+      <obj_property name="ElementShortName">rd_fifo_req</obj_property>
+      <obj_property name="ObjectShortName">rd_fifo_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/wr_fifo_req" type="logic">
+      <obj_property name="ElementShortName">wr_fifo_req</obj_property>
+      <obj_property name="ObjectShortName">wr_fifo_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/rw_fifo_addr" type="array">
+      <obj_property name="ElementShortName">rw_fifo_addr[28:0]</obj_property>
+      <obj_property name="ObjectShortName">rw_fifo_addr[28:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/wr_fifo_data" type="array">
+      <obj_property name="ElementShortName">wr_fifo_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_fifo_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/rw_fifo_ready" type="logic">
+      <obj_property name="ElementShortName">rw_fifo_ready</obj_property>
+      <obj_property name="ObjectShortName">rw_fifo_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_trans_app/empty_appfifo" type="logic">
+      <obj_property name="ElementShortName">empty_appfifo</obj_property>
+      <obj_property name="ObjectShortName">empty_appfifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/r_init_calib_complete" type="logic">
+      <obj_property name="ElementShortName">r_init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">r_init_calib_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_trans_app/wr_ready" type="logic">
+      <obj_property name="ElementShortName">wr_ready</obj_property>
+      <obj_property name="ObjectShortName">wr_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_trans_app/rd_ready" type="logic">
+      <obj_property name="ElementShortName">rd_ready</obj_property>
+      <obj_property name="ObjectShortName">rd_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_trans_app/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_addr" type="array">
+      <obj_property name="ElementShortName">app_addr[28:0]</obj_property>
+      <obj_property name="ObjectShortName">app_addr[28:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_cmd" type="array">
+      <obj_property name="ElementShortName">app_cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">app_cmd[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_en" type="logic">
+      <obj_property name="ElementShortName">app_en</obj_property>
+      <obj_property name="ObjectShortName">app_en</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_rdy" type="logic">
+      <obj_property name="ElementShortName">app_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_rdy</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_rd_data" type="array">
+      <obj_property name="ElementShortName">app_rd_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_rd_data_end" type="logic">
+      <obj_property name="ElementShortName">app_rd_data_end</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_end</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_rd_data_valid" type="logic">
+      <obj_property name="ElementShortName">app_rd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_valid</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_wdf_data" type="array">
+      <obj_property name="ElementShortName">app_wdf_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_data[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_trans_app/app_wdf_wren" type="logic">
+      <obj_property name="ElementShortName">app_wdf_wren</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_wdf_end" type="logic">
+      <obj_property name="ElementShortName">app_wdf_end</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_end</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_wdf_mask" type="array">
+      <obj_property name="ElementShortName">app_wdf_mask[15:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_mask[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/app_wdf_rdy" type="logic">
+      <obj_property name="ElementShortName">app_wdf_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_rdy</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ui_rst" type="logic">
+      <obj_property name="ElementShortName">ui_rst</obj_property>
+      <obj_property name="ObjectShortName">ui_rst</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/init_calib_complete" type="logic">
+      <obj_property name="ElementShortName">init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">init_calib_complete</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/tg_compare_error" type="logic">
+      <obj_property name="ElementShortName">tg_compare_error</obj_property>
+      <obj_property name="ObjectShortName">tg_compare_error</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/RW_FIFO_READY" type="logic">
+      <obj_property name="ElementShortName">RW_FIFO_READY</obj_property>
+      <obj_property name="ObjectShortName">RW_FIFO_READY</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/RW_FIFO_EMPTY" type="logic">
+      <obj_property name="ElementShortName">RW_FIFO_EMPTY</obj_property>
+      <obj_property name="ObjectShortName">RW_FIFO_EMPTY</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/RD_FIFO_DATA_VALID" type="logic">
+      <obj_property name="ElementShortName">RD_FIFO_DATA_VALID</obj_property>
+      <obj_property name="ObjectShortName">RD_FIFO_DATA_VALID</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/RD_FIFO_DATA" type="array">
+      <obj_property name="ElementShortName">RD_FIFO_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_FIFO_DATA[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/RD_FIFO_REQ" type="logic">
+      <obj_property name="ElementShortName">RD_FIFO_REQ</obj_property>
+      <obj_property name="ObjectShortName">RD_FIFO_REQ</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/WR_FIFO_REQ" type="logic">
+      <obj_property name="ElementShortName">WR_FIFO_REQ</obj_property>
+      <obj_property name="ObjectShortName">WR_FIFO_REQ</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/RW_FIFO_ADDR" type="array">
+      <obj_property name="ElementShortName">RW_FIFO_ADDR[28:0]</obj_property>
+      <obj_property name="ObjectShortName">RW_FIFO_ADDR[28:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/WR_FIFO_DATA" type="array">
+      <obj_property name="ElementShortName">WR_FIFO_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_FIFO_DATA[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_wr_req" type="logic">
+      <obj_property name="ElementShortName">ddr_wr_req</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_req</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_rd_req" type="logic">
+      <obj_property name="ElementShortName">ddr_rd_req</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_req</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_wr_cnt" type="array">
+      <obj_property name="ElementShortName">ddr_wr_cnt[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_cnt[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_rd_cnt" type="array">
+      <obj_property name="ElementShortName">ddr_rd_cnt[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_cnt[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/r2_wr_ready" type="logic">
+      <obj_property name="ElementShortName">r2_wr_ready</obj_property>
+      <obj_property name="ObjectShortName">r2_wr_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/r2_rd_ready" type="logic">
+      <obj_property name="ElementShortName">r2_rd_ready</obj_property>
+      <obj_property name="ObjectShortName">r2_rd_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/u_prbs_generator_wr/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/u_prbs_generator_wr/init" type="logic">
+      <obj_property name="ElementShortName">init</obj_property>
+      <obj_property name="ObjectShortName">init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/u_prbs_generator_wr/pause" type="logic">
+      <obj_property name="ElementShortName">pause</obj_property>
+      <obj_property name="ObjectShortName">pause</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/u_prbs_generator_wr/type" type="array">
+      <obj_property name="ElementShortName">type[3:0]</obj_property>
+      <obj_property name="ObjectShortName">type[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/u_prbs_generator_wr/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/prbs_addr" type="array">
+      <obj_property name="ElementShortName">prbs_addr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">prbs_addr[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/prbs_cmpaddr" type="array">
+      <obj_property name="ElementShortName">prbs_cmpaddr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">prbs_cmpaddr[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_wr_addr" type="array">
+      <obj_property name="ElementShortName">ddr_wr_addr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_addr[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_rd_addr" type="array">
+      <obj_property name="ElementShortName">ddr_rd_addr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_addr[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/tg_compare_error" type="logic">
+      <obj_property name="ElementShortName">tg_compare_error</obj_property>
+      <obj_property name="ObjectShortName">tg_compare_error</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/prbs_rst2" type="logic">
+      <obj_property name="ElementShortName">prbs_rst2</obj_property>
+      <obj_property name="ObjectShortName">prbs_rst2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/prbs_cmpaddr" type="array">
+      <obj_property name="ElementShortName">prbs_cmpaddr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">prbs_cmpaddr[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_rd_cmpdata" type="array">
+      <obj_property name="ElementShortName">ddr_rd_cmpdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_cmpdata[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/r1_rd_fifo_data" type="array">
+      <obj_property name="ElementShortName">r1_rd_fifo_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">r1_rd_fifo_data[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/r1_rd_fifo_data_valid" type="logic">
+      <obj_property name="ElementShortName">r1_rd_fifo_data_valid</obj_property>
+      <obj_property name="ObjectShortName">r1_rd_fifo_data_valid</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_rdvld_cnt" type="array">
+      <obj_property name="ElementShortName">ddr_rdvld_cnt[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rdvld_cnt[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/soft_rst" type="logic">
+      <obj_property name="ElementShortName">soft_rst</obj_property>
+      <obj_property name="ObjectShortName">soft_rst</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/test_mode" type="array">
+      <obj_property name="ElementShortName">test_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">test_mode[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/wait_rdvld" type="logic">
+      <obj_property name="ElementShortName">wait_rdvld</obj_property>
+      <obj_property name="ObjectShortName">wait_rdvld</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/addr_mode" type="array">
+      <obj_property name="ElementShortName">addr_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_mode[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/data_mode" type="array">
+      <obj_property name="ElementShortName">data_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mode[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/start_d0" type="logic">
+      <obj_property name="ElementShortName">start_d0</obj_property>
+      <obj_property name="ObjectShortName">start_d0</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/start_d1" type="logic">
+      <obj_property name="ElementShortName">start_d1</obj_property>
+      <obj_property name="ObjectShortName">start_d1</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/start_d2" type="logic">
+      <obj_property name="ElementShortName">start_d2</obj_property>
+      <obj_property name="ObjectShortName">start_d2</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/r1_ready" type="logic">
+      <obj_property name="ElementShortName">r1_ready</obj_property>
+      <obj_property name="ObjectShortName">r1_ready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/r1_rd_fifo_data" type="array">
+      <obj_property name="ElementShortName">r1_rd_fifo_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">r1_rd_fifo_data[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/r1_rd_fifo_data_valid" type="logic">
+      <obj_property name="ElementShortName">r1_rd_fifo_data_valid</obj_property>
+      <obj_property name="ObjectShortName">r1_rd_fifo_data_valid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/rw_all_mode0" type="logic">
+      <obj_property name="ElementShortName">rw_all_mode0</obj_property>
+      <obj_property name="ObjectShortName">rw_all_mode0</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/rw_one_mode1" type="logic">
+      <obj_property name="ElementShortName">rw_one_mode1</obj_property>
+      <obj_property name="ObjectShortName">rw_one_mode1</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/w_one_r_all_mode2" type="logic">
+      <obj_property name="ElementShortName">w_one_r_all_mode2</obj_property>
+      <obj_property name="ObjectShortName">w_one_r_all_mode2</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/w_only_mode3" type="logic">
+      <obj_property name="ElementShortName">w_only_mode3</obj_property>
+      <obj_property name="ObjectShortName">w_only_mode3</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/r_only_mode4" type="logic">
+      <obj_property name="ElementShortName">r_only_mode4</obj_property>
+      <obj_property name="ObjectShortName">r_only_mode4</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_wr_firstcyc" type="logic">
+      <obj_property name="ElementShortName">ddr_wr_firstcyc</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_firstcyc</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_wr_req" type="logic">
+      <obj_property name="ElementShortName">ddr_wr_req</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_req</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_wr_addr" type="array">
+      <obj_property name="ElementShortName">ddr_wr_addr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_addr[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_wr_data" type="array">
+      <obj_property name="ElementShortName">ddr_wr_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_data[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_rd_req" type="logic">
+      <obj_property name="ElementShortName">ddr_rd_req</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_req</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_rd_addr" type="array">
+      <obj_property name="ElementShortName">ddr_rd_addr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_addr[25:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/ddr_rd_cmpdata" type="array">
+      <obj_property name="ElementShortName">ddr_rd_cmpdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_cmpdata[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/timer_wr_r" type="array">
+      <obj_property name="ElementShortName">timer_wr_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_wr_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/cnt_wr_en" type="logic">
+      <obj_property name="ElementShortName">cnt_wr_en</obj_property>
+      <obj_property name="ObjectShortName">cnt_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/cnt_wr_10ns" type="array">
+      <obj_property name="ElementShortName">cnt_wr_10ns[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_wr_10ns[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/timer_rd_r" type="array">
+      <obj_property name="ElementShortName">timer_rd_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_rd_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/cnt_rd_en" type="logic">
+      <obj_property name="ElementShortName">cnt_rd_en</obj_property>
+      <obj_property name="ObjectShortName">cnt_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/cnt_rd_10ns" type="array">
+      <obj_property name="ElementShortName">cnt_rd_10ns[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_rd_10ns[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/timer_rdvld_r" type="array">
+      <obj_property name="ElementShortName">timer_rdvld_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_rdvld_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/cnt_rdvld_en" type="logic">
+      <obj_property name="ElementShortName">cnt_rdvld_en</obj_property>
+      <obj_property name="ObjectShortName">cnt_rdvld_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/cnt_rdvld_10ns" type="array">
+      <obj_property name="ElementShortName">cnt_rdvld_10ns[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_rdvld_10ns[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/prbs_rst" type="logic">
+      <obj_property name="ElementShortName">prbs_rst</obj_property>
+      <obj_property name="ObjectShortName">prbs_rst</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/soft_rst_reg" type="logic">
+      <obj_property name="ElementShortName">soft_rst_reg</obj_property>
+      <obj_property name="ObjectShortName">soft_rst_reg</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/u_mem_test/start_reg" type="logic">
+      <obj_property name="ElementShortName">start_reg</obj_property>
+      <obj_property name="ObjectShortName">start_reg</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

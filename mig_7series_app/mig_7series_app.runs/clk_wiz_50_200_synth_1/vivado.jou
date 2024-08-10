@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Jul 21 12:51:01 2024
+# Process ID: 66360
+# Current directory: D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_app/mig_7series_app.runs/clk_wiz_50_200_synth_1
+# Command line: vivado.exe -log clk_wiz_50_200.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_50_200.tcl
+# Log file: D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_app/mig_7series_app.runs/clk_wiz_50_200_synth_1/clk_wiz_50_200.vds
+# Journal file: D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_app/mig_7series_app.runs/clk_wiz_50_200_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_wiz_50_200.tcl -notrace
