@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jul 22 22:13:47 2024
+# Process ID: 89624
+# Current directory: D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/syncfifo_dist_dat_synth_1
+# Command line: vivado.exe -log syncfifo_dist_dat.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source syncfifo_dist_dat.tcl
+# Log file: D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/syncfifo_dist_dat_synth_1/syncfifo_dist_dat.vds
+# Journal file: D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/syncfifo_dist_dat_synth_1\vivado.jou
+#-----------------------------------------------------------
+source syncfifo_dist_dat.tcl -notrace

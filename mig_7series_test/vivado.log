@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jun 19 23:07:23 2024
+# Process ID: 275856
+# Current directory: D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent280948 D:\self_learning\hulang\hulang001_plus\2_projects\mig_7series_test\mig_7series_test.xpr
+# Log file: D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/vivado.log
+# Journal file: D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 19 23:07:36 2024...

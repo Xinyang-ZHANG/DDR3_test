@@ -1,0 +1,767 @@
+
+*** Running vivado
+    with args -log example_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source example_top.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source example_top.tcl -notrace
+WARNING: [Board 49-69] Validation failed for board file D:/Vivado2019.1/Vivado/2019.1/data/boards/board_parts/zynq/pynq-z2/A.0/board.xml:
+ Frequency Parameter not provided for audio_clock
+
+Command: synth_design -top example_top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 44580 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 859.422 ; gain = 177.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'example_top' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:8]
+	Parameter C_S_AXI_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 29 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:80]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:81]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:97]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:98]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:104]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:105]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:107]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:109]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:110]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:111]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:113]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:115]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:119]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:120]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:126]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:127]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:129]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:131]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:133]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:134]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:138]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:139]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:140]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:141]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:142]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:143]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:144]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:146]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:147]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:148]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:149]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:150]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:151]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_50_200' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/clk_wiz_50_200_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_50_200' (1#1) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/clk_wiz_50_200_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/mig_7series_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (2#1) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/mig_7series_0_stub.v:5]
+WARNING: [Synth 8-7023] instance 'u_mig_7series_0' of module 'mig_7series_0' has 63 connections declared, but only 60 given [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:155]
+INFO: [Synth 8-6157] synthesizing module 'mem_trans_axi' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_trans_axi.v:1]
+	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 29 - type: integer 
+	Parameter C_AXI_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter S_WR_ADDR bound to: 3'b000 
+	Parameter S_WR_DATA bound to: 3'b001 
+	Parameter S_WR_BACK bound to: 3'b010 
+	Parameter S_RD_ADDR bound to: 3'b000 
+	Parameter S_RD_WAIT bound to: 3'b001 
+INFO: [Synth 8-6157] synthesizing module 'syncfifo_dist_cmd' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/syncfifo_dist_cmd_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'syncfifo_dist_cmd' (3#1) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/syncfifo_dist_cmd_stub.v:6]
+WARNING: [Synth 8-689] width (37) of port connection 'dout' does not match port width (40) of module 'syncfifo_dist_cmd' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_trans_axi.v:104]
+WARNING: [Synth 8-689] width (4) of port connection 'data_count' does not match port width (5) of module 'syncfifo_dist_cmd' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_trans_axi.v:106]
+INFO: [Synth 8-6157] synthesizing module 'syncfifo_dist_dat' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/syncfifo_dist_dat_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'syncfifo_dist_dat' (4#1) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/syncfifo_dist_dat_stub.v:6]
+WARNING: [Synth 8-689] width (10) of port connection 'data_count' does not match port width (11) of module 'syncfifo_dist_dat' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_trans_axi.v:120]
+WARNING: [Synth 8-689] width (37) of port connection 'dout' does not match port width (40) of module 'syncfifo_dist_cmd' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_trans_axi.v:246]
+WARNING: [Synth 8-689] width (4) of port connection 'data_count' does not match port width (5) of module 'syncfifo_dist_cmd' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_trans_axi.v:248]
+WARNING: [Synth 8-6014] Unused sequential element rd_axi_ready_reg was removed.  [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_trans_axi.v:292]
+INFO: [Synth 8-6155] done synthesizing module 'mem_trans_axi' (5#1) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_trans_axi.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'M_AXI_AWLOCK' does not match port width (2) of module 'mem_trans_axi' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:248]
+WARNING: [Synth 8-689] width (1) of port connection 'M_AXI_ARLOCK' does not match port width (2) of module 'mem_trans_axi' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:275]
+WARNING: [Synth 8-7023] instance 'u_mem_trans_axi' of module 'mem_trans_axi' has 54 connections declared, but only 53 given [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:238]
+INFO: [Synth 8-6157] synthesizing module 'mem_test' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:25]
+	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 29 - type: integer 
+	Parameter C_AXI_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter P_AXSIZE bound to: 4 - type: integer 
+	Parameter RAM_ADDR_WIDTH bound to: 25 - type: integer 
+	Parameter SIM_TRANSNUM bound to: 26'b00000000000000001111111111 
+	Parameter REAL_TRANSNUM bound to: 25'b1111111111111111111111111 
+	Parameter HALF_TRANSNUM bound to: 16777215 - type: integer 
+	Parameter TRANSNUM bound to: 25'b1111111111111111111111111 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:85]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:86]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:146]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:147]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:162]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:163]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:164]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:166]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:167]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:168]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:169]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:170]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:171]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:172]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:173]
+INFO: [Synth 8-6157] synthesizing module 'vio_0' [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_0' (6#1) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/.Xil/Vivado-19144-DESKTOP-C3MDEKS/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-226] default block is never used [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:401]
+INFO: [Synth 8-226] default block is never used [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:438]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_0'. This will prevent further optimization [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:129]
+INFO: [Synth 8-6155] done synthesizing module 'mem_test' (7#1) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/new/mem_test.v:25]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_mig_7series_0'. This will prevent further optimization [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:155]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_mem_trans_axi'. This will prevent further optimization [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:238]
+INFO: [Synth 8-6155] done synthesizing module 'example_top' (8#1) [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/imports/imports/example_top.v:8]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[11]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[10]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[9]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[8]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[7]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[6]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[5]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[4]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[3]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[2]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[1]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[0]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BRESP[1]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BRESP[0]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[11]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[10]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[9]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[8]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[7]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[6]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[5]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[4]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[3]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[2]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[1]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[0]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RRESP[1]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RRESP[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 925.992 ; gain = 244.520
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 925.992 ; gain = 244.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 925.992 ; gain = 244.520
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/syncfifo_dist_cmd/syncfifo_dist_cmd/syncfifo_dist_cmd_in_context.xdc] for cell 'u_mem_trans_axi/u_axi_syncfifo_dist_wcmd'
+Finished Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/syncfifo_dist_cmd/syncfifo_dist_cmd/syncfifo_dist_cmd_in_context.xdc] for cell 'u_mem_trans_axi/u_axi_syncfifo_dist_wcmd'
+Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/syncfifo_dist_cmd/syncfifo_dist_cmd/syncfifo_dist_cmd_in_context.xdc] for cell 'u_mem_trans_axi/u_axi_syncfifo_dist_rcmd'
+Finished Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/syncfifo_dist_cmd/syncfifo_dist_cmd/syncfifo_dist_cmd_in_context.xdc] for cell 'u_mem_trans_axi/u_axi_syncfifo_dist_rcmd'
+Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/syncfifo_dist_dat/syncfifo_dist_dat/syncfifo_dist_dat_in_context.xdc] for cell 'u_mem_trans_axi/u_axi_syncfifo_dist_wdat'
+Finished Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/syncfifo_dist_dat/syncfifo_dist_dat/syncfifo_dist_dat_in_context.xdc] for cell 'u_mem_trans_axi/u_axi_syncfifo_dist_wdat'
+Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'mem_test_m0/vio_0'
+Finished Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'mem_test_m0/vio_0'
+Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/clk_wiz_50_200/clk_wiz_50_200/clk_wiz_50_200_in_context.xdc] for cell 'clk_wiz_50_200'
+Finished Parsing XDC File [d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/clk_wiz_50_200/clk_wiz_50_200/clk_wiz_50_200_in_context.xdc] for cell 'clk_wiz_50_200'
+Parsing XDC File [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/constrs_1/new/example_top.xdc]
+Finished Parsing XDC File [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/constrs_1/new/example_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/constrs_1/new/example_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/example_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/example_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1064.621 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1064.621 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1064.621 ; gain = 383.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1064.621 ; gain = 383.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 2).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 3).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[10]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[10]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[11]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[11]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 7).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[12]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[12]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 9).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[13]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 10).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[13]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 11).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[14]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 12).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[14]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 13).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 14).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 15).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[2]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 16).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[2]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 17).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[3]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 18).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[3]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 19).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[4]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 20).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[4]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 21).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[5]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 22).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[5]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 23).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[6]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 24).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[6]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 25).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[7]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 26).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[7]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 27).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[8]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 28).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[8]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 29).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[9]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 30).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[9]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 31).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ba[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 32).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ba[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 33).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ba[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 34).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ba[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 35).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ba[2]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 36).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ba[2]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 37).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_cas_n. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 38).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_cas_n. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 39).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ck_n[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 40).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ck_n[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 41).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ck_p[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 42).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ck_p[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 43).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_cke[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 44).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_cke[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 45).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_cs_n[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 46).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_cs_n[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 47).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dm[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 48).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dm[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 49).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dm[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 50).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dm[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 51).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 52).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 53).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[10]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 54).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[10]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 55).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[11]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 56).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[11]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 57).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[12]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 58).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[12]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 59).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[13]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 60).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[13]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 61).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[14]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 62).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[14]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 63).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[15]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 64).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[15]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 65).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 66).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 67).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[2]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 68).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[2]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 69).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[3]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 70).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[3]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 71).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[4]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 72).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[4]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 73).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[5]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 74).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[5]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 75).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[6]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 76).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[6]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 77).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[7]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 78).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[7]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 79).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[8]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 80).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[8]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 81).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dq[9]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 82).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dq[9]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 83).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dqs_n[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 84).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dqs_n[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 85).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dqs_n[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 86).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dqs_n[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 87).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dqs_p[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 88).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dqs_p[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 89).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_dqs_p[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 90).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_dqs_p[1]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 91).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_odt[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 92).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_odt[0]. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 93).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_ras_n. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 94).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_ras_n. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 95).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_reset_n. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 96).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_reset_n. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 97).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_we_n. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 98).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_we_n. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 99).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_i. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/clk_wiz_50_200/clk_wiz_50_200/clk_wiz_50_200_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_i. (constraint file  d:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.srcs/sources_1/ip/clk_wiz_50_200/clk_wiz_50_200/clk_wiz_50_200_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for u_mem_trans_axi/u_axi_syncfifo_dist_rcmd. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_mem_trans_axi/u_axi_syncfifo_dist_wcmd. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_mem_trans_axi/u_axi_syncfifo_dist_wdat. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for mem_test_m0/vio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_mig_7series_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_wiz_50_200. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1064.621 ; gain = 383.148
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'mem_trans_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'mem_trans_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'mem_test'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'mem_test'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               S_WR_ADDR |                               00 |                              000
+               S_WR_DATA |                               01 |                              001
+               S_WR_BACK |                               10 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wr_state_reg' using encoding 'sequential' in module 'mem_trans_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               S_RD_ADDR |                                0 |                              000
+               S_RD_WAIT |                                1 |                              001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'sequential' in module 'mem_trans_axi'
+INFO: [Synth 8-6159] Found Keep on FSM register 'rd_state_reg' in module 'mem_test', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               00
+                 iSTATE1 |                               10 |                               10
+                 iSTATE0 |                               01 |                               01
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-6159] Found Keep on FSM register 'wr_state_reg' in module 'mem_test', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+                 iSTATE1 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1064.621 ; gain = 383.148
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 3     
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 3     
++---Registers : 
+	              128 Bit    Registers := 3     
+	               64 Bit    Registers := 3     
+	               32 Bit    Registers := 3     
+	               29 Bit    Registers := 2     
+	               25 Bit    Registers := 4     
+	                8 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   6 Input    128 Bit        Muxes := 2     
+	   2 Input     64 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 3     
+	   6 Input     29 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 23    
+	   8 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 29    
+	   3 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module example_top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module mem_trans_axi 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   8 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 1     
+Module mem_test 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 3     
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	              128 Bit    Registers := 3     
+	               64 Bit    Registers := 3     
+	               32 Bit    Registers := 3     
+	               29 Bit    Registers := 2     
+	               25 Bit    Registers := 4     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   6 Input    128 Bit        Muxes := 2     
+	   2 Input     64 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 3     
+	   6 Input     29 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 19    
+	   2 Input      1 Bit        Muxes := 22    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[11]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[10]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[9]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[8]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[7]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[6]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[5]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[4]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[3]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[2]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[1]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BID[0]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BRESP[1]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_BRESP[0]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[11]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[10]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[9]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[8]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[7]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[6]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[5]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[4]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[3]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[2]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[1]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RID[0]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RRESP[1]
+WARNING: [Synth 8-3331] design mem_trans_axi has unconnected port M_AXI_RRESP[0]
+INFO: [Synth 8-3886] merging instance 'u_mem_trans_axi/rd_state_reg[1]' (FDRE) to 'u_mem_trans_axi/rd_state_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mem_trans_axi/\rd_state_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mem_trans_axi/\wr_state_reg[2] )
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/rd_adrs_reg[0]' (FDRE) to 'mem_test_m0/rd_adrs_reg[1]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/rd_adrs_reg[1]' (FDRE) to 'mem_test_m0/rd_adrs_reg[2]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/rd_adrs_reg[2]' (FDRE) to 'mem_test_m0/rd_adrs_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mem_test_m0/\rd_adrs_reg[3] )
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[0]' (FDR) to 'mem_test_m0/wr_data_reg[32]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[1]' (FDR) to 'mem_test_m0/wr_data_reg[33]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[2]' (FDR) to 'mem_test_m0/wr_data_reg[34]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[3]' (FDR) to 'mem_test_m0/wr_data_reg[35]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[4]' (FDR) to 'mem_test_m0/wr_data_reg[36]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[5]' (FDR) to 'mem_test_m0/wr_data_reg[37]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[6]' (FDR) to 'mem_test_m0/wr_data_reg[38]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[7]' (FDR) to 'mem_test_m0/wr_data_reg[39]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[8]' (FDR) to 'mem_test_m0/wr_data_reg[40]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[9]' (FDR) to 'mem_test_m0/wr_data_reg[41]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[10]' (FDR) to 'mem_test_m0/wr_data_reg[42]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[11]' (FDR) to 'mem_test_m0/wr_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[12]' (FDR) to 'mem_test_m0/wr_data_reg[44]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[13]' (FDR) to 'mem_test_m0/wr_data_reg[45]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[14]' (FDR) to 'mem_test_m0/wr_data_reg[46]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[15]' (FDR) to 'mem_test_m0/wr_data_reg[47]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[16]' (FDR) to 'mem_test_m0/wr_data_reg[48]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[17]' (FDR) to 'mem_test_m0/wr_data_reg[49]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[18]' (FDR) to 'mem_test_m0/wr_data_reg[50]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[19]' (FDR) to 'mem_test_m0/wr_data_reg[51]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[20]' (FDR) to 'mem_test_m0/wr_data_reg[52]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[21]' (FDR) to 'mem_test_m0/wr_data_reg[53]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[22]' (FDR) to 'mem_test_m0/wr_data_reg[54]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[23]' (FDR) to 'mem_test_m0/wr_data_reg[55]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[24]' (FDR) to 'mem_test_m0/wr_data_reg[56]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[25]' (FDR) to 'mem_test_m0/wr_data_reg[26]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[26]' (FDR) to 'mem_test_m0/wr_data_reg[27]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[27]' (FDR) to 'mem_test_m0/wr_data_reg[28]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[28]' (FDR) to 'mem_test_m0/wr_data_reg[29]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[29]' (FDR) to 'mem_test_m0/wr_data_reg[30]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[30]' (FDR) to 'mem_test_m0/wr_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[31]' (FDR) to 'mem_test_m0/wr_data_reg[57]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[32]' (FDR) to 'mem_test_m0/wr_data_reg[64]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[33]' (FDR) to 'mem_test_m0/wr_data_reg[65]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[34]' (FDR) to 'mem_test_m0/wr_data_reg[66]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[35]' (FDR) to 'mem_test_m0/wr_data_reg[67]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[36]' (FDR) to 'mem_test_m0/wr_data_reg[68]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[37]' (FDR) to 'mem_test_m0/wr_data_reg[69]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[38]' (FDR) to 'mem_test_m0/wr_data_reg[70]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[39]' (FDR) to 'mem_test_m0/wr_data_reg[71]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[40]' (FDR) to 'mem_test_m0/wr_data_reg[72]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[41]' (FDR) to 'mem_test_m0/wr_data_reg[73]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[42]' (FDR) to 'mem_test_m0/wr_data_reg[74]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[43]' (FDR) to 'mem_test_m0/wr_data_reg[75]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[44]' (FDR) to 'mem_test_m0/wr_data_reg[76]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[45]' (FDR) to 'mem_test_m0/wr_data_reg[77]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[46]' (FDR) to 'mem_test_m0/wr_data_reg[78]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[47]' (FDR) to 'mem_test_m0/wr_data_reg[79]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[48]' (FDR) to 'mem_test_m0/wr_data_reg[80]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[49]' (FDR) to 'mem_test_m0/wr_data_reg[81]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[50]' (FDR) to 'mem_test_m0/wr_data_reg[82]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[51]' (FDR) to 'mem_test_m0/wr_data_reg[83]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[52]' (FDR) to 'mem_test_m0/wr_data_reg[84]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[53]' (FDR) to 'mem_test_m0/wr_data_reg[85]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[54]' (FDR) to 'mem_test_m0/wr_data_reg[86]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[55]' (FDR) to 'mem_test_m0/wr_data_reg[87]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[56]' (FDR) to 'mem_test_m0/wr_data_reg[88]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[57]' (FDR) to 'mem_test_m0/wr_data_reg[58]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[58]' (FDR) to 'mem_test_m0/wr_data_reg[59]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[59]' (FDR) to 'mem_test_m0/wr_data_reg[60]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[60]' (FDR) to 'mem_test_m0/wr_data_reg[61]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[61]' (FDR) to 'mem_test_m0/wr_data_reg[62]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[62]' (FDR) to 'mem_test_m0/wr_data_reg[63]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[63]' (FDR) to 'mem_test_m0/wr_data_reg[89]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[64]' (FDR) to 'mem_test_m0/wr_data_reg[96]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[65]' (FDR) to 'mem_test_m0/wr_data_reg[97]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[66]' (FDR) to 'mem_test_m0/wr_data_reg[98]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[67]' (FDR) to 'mem_test_m0/wr_data_reg[99]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[68]' (FDR) to 'mem_test_m0/wr_data_reg[100]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[69]' (FDR) to 'mem_test_m0/wr_data_reg[101]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[70]' (FDR) to 'mem_test_m0/wr_data_reg[102]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[71]' (FDR) to 'mem_test_m0/wr_data_reg[103]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[72]' (FDR) to 'mem_test_m0/wr_data_reg[104]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[73]' (FDR) to 'mem_test_m0/wr_data_reg[105]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[74]' (FDR) to 'mem_test_m0/wr_data_reg[106]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[75]' (FDR) to 'mem_test_m0/wr_data_reg[107]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[76]' (FDR) to 'mem_test_m0/wr_data_reg[108]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[77]' (FDR) to 'mem_test_m0/wr_data_reg[109]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[78]' (FDR) to 'mem_test_m0/wr_data_reg[110]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[79]' (FDR) to 'mem_test_m0/wr_data_reg[111]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[80]' (FDR) to 'mem_test_m0/wr_data_reg[112]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[81]' (FDR) to 'mem_test_m0/wr_data_reg[113]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[82]' (FDR) to 'mem_test_m0/wr_data_reg[114]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[83]' (FDR) to 'mem_test_m0/wr_data_reg[115]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[84]' (FDR) to 'mem_test_m0/wr_data_reg[116]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[85]' (FDR) to 'mem_test_m0/wr_data_reg[117]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[86]' (FDR) to 'mem_test_m0/wr_data_reg[118]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[87]' (FDR) to 'mem_test_m0/wr_data_reg[119]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[88]' (FDR) to 'mem_test_m0/wr_data_reg[120]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[89]' (FDR) to 'mem_test_m0/wr_data_reg[90]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[90]' (FDR) to 'mem_test_m0/wr_data_reg[91]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[91]' (FDR) to 'mem_test_m0/wr_data_reg[92]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[92]' (FDR) to 'mem_test_m0/wr_data_reg[93]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[93]' (FDR) to 'mem_test_m0/wr_data_reg[94]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[94]' (FDR) to 'mem_test_m0/wr_data_reg[95]'
+INFO: [Synth 8-3886] merging instance 'mem_test_m0/wr_data_reg[95]' (FDR) to 'mem_test_m0/wr_data_reg[121]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mem_test_m0/\wr_adrs_reg[3] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1064.621 ; gain = 383.148
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_mig_7series_0/ui_clk' to pin 'u_mig_7series_0/bbstub_ui_clk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_wiz_50_200/clk_out1' to pin 'clk_wiz_50_200/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1064.621 ; gain = 383.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1088.707 ; gain = 407.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1096.512 ; gain = 415.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1101.137 ; gain = 419.664
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1101.137 ; gain = 419.664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1101.137 ; gain = 419.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1101.137 ; gain = 419.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1101.137 ; gain = 419.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1101.137 ; gain = 419.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------+----------+
+|      |BlackBox name     |Instances |
++------+------------------+----------+
+|1     |syncfifo_dist_cmd |         2|
+|2     |syncfifo_dist_dat |         1|
+|3     |vio_0             |         1|
+|4     |clk_wiz_50_200    |         1|
+|5     |mig_7series_0     |         1|
++------+------------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |clk_wiz_50_200       |     1|
+|2     |mig_7series_0        |     1|
+|3     |syncfifo_dist_cmd    |     1|
+|4     |syncfifo_dist_cmd__2 |     1|
+|5     |syncfifo_dist_dat    |     1|
+|6     |vio_0                |     1|
+|7     |CARRY4               |   114|
+|8     |LUT1                 |    18|
+|9     |LUT2                 |    53|
+|10    |LUT3                 |    83|
+|11    |LUT4                 |    69|
+|12    |LUT5                 |   321|
+|13    |LUT6                 |   117|
+|14    |FDRE                 |   866|
++------+---------------------+------+
+
+Report Instance Areas: 
++------+------------------+--------------+------+
+|      |Instance          |Module        |Cells |
++------+------------------+--------------+------+
+|1     |top               |              |  2108|
+|2     |  u_mem_trans_axi |mem_trans_axi |   285|
+|3     |  mem_test_m0     |mem_test      |  1608|
++------+------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1101.137 ; gain = 419.664
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1101.137 ; gain = 281.035
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1101.137 ; gain = 419.664
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 114 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'example_top' is not ideal for floorplanning, since the cellview 'mem_test' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1117.254 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+197 Infos, 68 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1117.254 ; gain = 704.309
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1117.254 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/self_learning/hulang/hulang001_plus/2_projects/mig_7series_test/mig_7series_test.runs/synth_1/example_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file example_top_utilization_synth.rpt -pb example_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 18 23:23:08 2024...
